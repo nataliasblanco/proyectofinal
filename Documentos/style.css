@@ -1,0 +1,165 @@
+/*ESTILOS GENERALES*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.headerestetico {
+    background-color: #f9d9d9;
+    padding: 1rem 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logofoto {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #ff6b6b;
+    filter: hightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: ff6b6b;
+    font-weight: bold;
+    transition: color 0,3s;
+}
+
+nav a:hover {
+    color: ff007f;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+/*ESTILOS DE SECCIONES CON FONDOS ROSADOS PASTEL*/
+
+.fondorosapastel {
+    background-color: #f9d9d9;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 4gba(0, 0, 0, 0.1);
+}
+
+.fondorosaclaro {
+    background-color: #ffdcd9;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*ESTILOS PARA TITULOS*/
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+
+/*ESTILOS PARA LISTAS*/
+
+-servicioslista {
+    list-style: disc;
+    margin-left: 20px;
+    color: #ff6b6b;
+}
+
+
+/*ESTILOS PARA FORMULARIOS*/
+
+-formgroup {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff6b6b;
+}
+
+input, textarea {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff007f;
+    color: #fff;
+    padding: 10 pc 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #ff6b6b;
+}
+
+.buttonestetico {
+    background-color: #ff007f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+-buttonestetico:hover {
+    background-color: #ff6b6b;
+}
+
+
+/*ESTILOS PARA EL EQUIPO*/
+
+.miembrosequipo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.miembro {
+    text-align: center;
+}
+
+.miembro img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+
+/*ESTILOS PARA EL PIE DE PÁGINA*/
+
+footer {
+    background-color: #f9d9d9;
+    color: #ff6b6b;
+    text-align: center;
+    padding: 1rem 0;
+}

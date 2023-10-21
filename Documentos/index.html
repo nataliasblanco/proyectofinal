@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Asesoria Legal</title>
+    <title>Blanco Asociadas</title>
 </head>
-<body>
-    <h1>HOLA</h1>
+    <body>
+    <header class="headerestetico">
+        <div class="logo">
+            <img src="/Imagenes/martilloabogado2.jpg" alt="" srcset="" class="logofoto">
+        </div>
+        <div class="estudiojuridiconombre">
+            <h1>Blanco Asociadas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="=#inicio">Inicio</a></li>
+                <li><a href="=#servicios">Servicios</a></li>
+                <li><a href="=#equipo">Equipo</a></li>
+                <li><a href="=#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="fondorosapastel">
+            <div class="iniciocontent">
+                <h1>Bienvenidos a su asesoría legal</h1>
+                <p>Somos un equipo de abogadas especializadas en brindar asesoría legal en diversas áreas. Estamos aquí para ayudarte con tus necesidades legales.</p>
+                <a href="#contacto" class="buttonestetico">Contactanos</a>
+            </div>
+        </section>
+    </main>
+    <section id="sericios" class="fondorosaclaro">
+            <h2>Nuestros Servicios</h2>
+            <ul class="servicioslista">
+                <li>Asesoría en Derecho Civil</li>
+                <li>Asesoría en Derecho Penal</li>
+                <li>Asesoría en Derecho Laboral</li>
+                <li>Asesoría en Derecho Comercial</li>
+                <li>Asesoría en Derecho Ambiental</li>
+            </ul>
+    </section>
+    <section id="equipo" class="fondorosaclaro">
+        <h2>Nuestro Equipo</h2>
+        <div class="miembrosequipo">
+            <div class="miembro">
+                <img src="/Imagenes/fotocami.jpg" alt="Dra. Camila Blanco">
+                <h3>Dra. Camila S. Blanco</h3>
+                <p>Especialista en Derecho Ambiental</p>
+            </div>
+            <div class="miembro">
+                <img src="/Imagenes/fotonati.jpg" alt="Dra. Natalia Blanco" srcset="">
+                <h3>Dra. Natalia S. Blanco</h3>
+                <p>Especialista en Derecho Laboral</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="fondorosapastel">
+        <h2>Contacto</h2>
+        <div class="contactoform">
+            <form id="contactoform">
+                <div class="formgroup">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="formgroup">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="formgroup">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="fondorosapastel">
+        <p>&copy; 2023 Asesoría Legal de Abogadas</p>
+    </footer> 
 </body>
 </html>
