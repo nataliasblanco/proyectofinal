@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+*{
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+}
 
-/*ESTILO GENERAL, DESPUÉS VER QUÉ SERÍA*/
+/*ESTILO GENERAL*/
 body {
     font-family: "Roboto";
     margin: 0;
@@ -9,10 +14,11 @@ body {
     color: #7a5c3c;
 }
 
+
 /*ESTILO HEADER*/
 .headerestetico {
     background-color: #b08e6b;
-     padding: 1px;
+    padding: 1px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -45,22 +51,39 @@ nav a:hover {
 .estudiojuridiconombre {
     font-weight: bold;
     color: #7a5c3c;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto";
 }
-
+.menudeinicio {
+    font-size: 20px;
+    font-family: "Roboto";
+}
 
 /*ESTILO MAIN-INICIO*/
 main {
-background-color: #ffffff;
-margin: 0 auto;
-padding: 9rem;
+    margin: 0 auto;
+    padding: 9rem;
+    background-size: 100%;
 }
-h1, h2, h3 {
-    font-weight: bold;
+.bienvenidos {
+    font-size: 60px;
     color: #7a5c3c;
+    font-weight: bold;
+    font-family: "Roboto";
 }
-p {
-    color: #b08e6b;
+.somos {
+    font-size: 30px;
+    font-family: "Roboto";
+    color:#b08e6b;
+}
+.buttonestetico {
+    background-color: #b08e6b;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
 }
 
 
@@ -69,87 +92,135 @@ p {
     background-color: #b08e6b;
     margin: 0 auto;
     padding: 9rem;
+    margin: auto;
+}
+.servicioss {
+    color: white;
+    font-size: 40px;
+    font-family: "Roboto";
 }
 .servicioslista {
     list-style: disc;
     margin-left: 20px;
     color: #f5e1ce;
+    font-size: 30px;
+    font-family: "Roboto";
 }
 
 
 /*ESTILO EQUIPO*/
+.equipo2 {
+    color: #7a5c3c;
+    font-size: 40px;
+    font-family: "Roboto";
+}
+.nombredras {
+    color: #7a5c3c;
+    font-size: 33px; 
+}
+.especialidad {
+    color: #e8c39e;
+    font-size: 25px; 
+}
+.cargo {
+    color: #e8c39e;
+    font-size: 20px;  
+}
 #equipo {
     background-color: #ffffff;
     margin: 0 auto;
-    padding: 15rem;
+    padding: 10rem;
 }
 .miembrosequipo {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .miembro {
     text-align: center;
 }
 .miembro img {
-    border-radius: 50%;
-    max-width: 150px;
+    border-radius: 40%;
+    max-width: 200px;
 }
 
 
 /*ESTILO CONTACTO*/
 #contacto {
-    background-color: #b08e6b;
+    background-image: url(/Imagenes/columnasmuseo5.png);
+    background-repeat: no-repeat;
+    opacity: 70%;
     margin: 0 auto;
     padding: 70px;
+    width: 100%;
+    background-size: 100%;
 }
--formgroup {
-    margin-bottom: 20px;
+.contacto2 {
+    color: #7a5c3c;
+    font-size: 40px;
+    font-family: "Roboto";
+}
+.formgroup {
+    margin-bottom: 200px;
 }
 label {
     display: block;
-    font-weight: bold;
     margin-bottom: 5px;
-    color: #f5e1ce;
-}
-input, textarea {
-    width: 100px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    color: #7a5c3c;
+    font-size: 20px;
 }
 button {
-    background-color: #f5e1ce;
+    background-color: #b08e6b;
     color: #fff;
     padding: 10 pc 20px;
     border: none;
     border-radius: 5px;
+    font-size: larger;
     cursor: pointer;
-    font-weight: bold;
     transition: background-color 0.3s;
+    font-family: "Roboto";
 }
 button:hover {
-    background-color: #ff6b6b;
-}
-.buttonestetico {
-    background-color: #b08e6b;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
--buttonestetico:hover {
-    background-color: #ff6b6b;
+    background-color: #7a5c3c;
 }
 
 
 /*ESTILO PIE DE PÁGINA*/
 #pie {
     background-color: #ffffff;
-    color: #ffffff;
+    color: #7a5c3c;
     text-align: center;
     margin: 0 auto;
     padding: 10px 0;
+    font-weight: bold;
+    font-family: "Roboto";   
+    font-size: 15px; 
 }
+h5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.linkiniciodepagina {
+    color: #7a5c3c;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+
+/*ESTILO ESPECÍFICO PARA CELULARES*/
+@media (max-witdh: 320) {
+    body {
+        font-size: 15px;
+    }
+    }
+
+
+/*ESTILO ESPECÍFICO PARA COMPUTADORAS*/
+@media (min-width: 1024) {
+    body {
+        font-size: 20px;    
+    }
+    }
