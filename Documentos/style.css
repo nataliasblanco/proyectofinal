@@ -21,8 +21,9 @@ body {
     padding: 1px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-position: center center;
 }
 
 .logofoto {
@@ -52,6 +53,7 @@ nav a:hover {
     font-weight: bold;
     color: #7a5c3c;
     font-family: "Roboto";
+    font-size: 20px;
 }
 .menudeinicio {
     font-size: 20px;
@@ -62,7 +64,8 @@ nav a:hover {
 main {
     margin: 0 auto;
     padding: 9rem;
-    background-size: 100%;
+    background-size: cover;
+
 }
 .bienvenidos {
     font-size: 60px;
@@ -93,6 +96,7 @@ main {
     margin: 0 auto;
     padding: 9rem;
     margin: auto;
+    background-position: center center;
 }
 .servicioss {
     color: white;
@@ -113,23 +117,28 @@ main {
     color: #7a5c3c;
     font-size: 40px;
     font-family: "Roboto";
+    align-items: center;
 }
 .nombredras {
     color: #7a5c3c;
-    font-size: 33px; 
+    font-size: 33px;
+    align-items: center; 
 }
 .especialidad {
-    color: #e8c39e;
+    color: #b08e6b;
     font-size: 25px; 
+    align-items: center;
 }
 .cargo {
     color: #e8c39e;
-    font-size: 20px;  
+    font-size: 20px; 
+    align-items: center; 
 }
 #equipo {
     background-color: #ffffff;
     margin: 0 auto;
     padding: 10rem;
+    align-items: center;
 }
 .miembrosequipo {
     display: flex;
@@ -142,6 +151,7 @@ main {
 .miembro img {
     border-radius: 40%;
     max-width: 200px;
+    align-items: center;
 }
 
 
@@ -153,15 +163,17 @@ main {
     margin: 0 auto;
     padding: 70px;
     width: 100%;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
 }
 .contacto2 {
     color: #7a5c3c;
     font-size: 40px;
     font-family: "Roboto";
 }
-.formgroup {
-    margin-bottom: 200px;
+.form-group {
+    margin-bottom: 20px;
 }
 label {
     display: block;
@@ -208,19 +220,28 @@ h5 {
     text-align: center;
     font-family: "Roboto";
 }
+.llogo {
+    width: 30px;
+    height: 30px;
+    filter: hightness(1.1);
+    mix-blend-mode: multiply;
+    position: relative;
+    align-items: center;
+}
+.ylogo {
+    width: 30px;
+    height: 30px;
+    filter: hightness(1.1);
+    mix-blend-mode: multiply;
+    position: relative;
+    align-items: center;
+}
 
 
-/*ESTILO ESPECÍFICO PARA CELULARES*/
-@media (max-witdh: 320) {
-    body {
-        font-size: 15px;
+/*ESTILO PARA CELULAR*/
+@media (max-width: 330) {
+    .body{
+        flex-direction: column;
+        align-items: center center;
     }
-    }
-
-
-/*ESTILO ESPECÍFICO PARA COMPUTADORAS*/
-@media (min-width: 1024) {
-    body {
-        font-size: 20px;    
-    }
-    }
+}
