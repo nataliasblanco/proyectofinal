@@ -1,15 +1,18 @@
-/*ESTILOS GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+/*ESTILO GENERAL, DESPUÉS VER QUÉ SERÍA*/
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto";
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #7a5c3c;
 }
 
+/*ESTILO HEADER*/
 .headerestetico {
-    background-color: #f9d9d9;
-    padding: 1rem 0;
+    background-color: #b08e6b;
+     padding: 1px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -17,99 +20,105 @@ body {
 }
 
 .logofoto {
-    font-weight: bold;
-    font-size: 24px;
     margin-left: 20px;
-    color: #ff6b6b;
     filter: hightness(1.1);
     mix-blend-mode: multiply;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     align-items: center;
 }
-
 nav li {
     margin: 0 20px;
 }
-
 nav a {
     text-decoration: none;
-    color: ff6b6b;
+    color: #f5e1ce;
     font-weight: bold;
     transition: color 0,3s;
 }
-
 nav a:hover {
-    color: ff007f;
+    color: #7a5c3c;
+}
+.estudiojuridiconombre {
+    font-weight: bold;
+    color: #7a5c3c;
+    font-family: Arial, sans-serif;
 }
 
+
+/*ESTILO MAIN-INICIO*/
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+background-color: #ffffff;
+margin: 0 auto;
+padding: 9rem;
 }
-
-
-/*ESTILOS DE SECCIONES CON FONDOS ROSADOS PASTEL*/
-
-.fondorosapastel {
-    background-color: #f9d9d9;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px 4gba(0, 0, 0, 0.1);
-}
-
-.fondorosaclaro {
-    background-color: #ffdcd9;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-/*ESTILOS PARA TITULOS*/
-
 h1, h2, h3 {
     font-weight: bold;
-    color: #ff6b6b;
+    color: #7a5c3c;
+}
+p {
+    color: #b08e6b;
 }
 
 
-/*ESTILOS PARA LISTAS*/
-
--servicioslista {
+/*ESTILO SERVICIOS*/
+#servicios {
+    background-color: #b08e6b;
+    margin: 0 auto;
+    padding: 9rem;
+}
+.servicioslista {
     list-style: disc;
     margin-left: 20px;
-    color: #ff6b6b;
+    color: #f5e1ce;
 }
 
 
-/*ESTILOS PARA FORMULARIOS*/
+/*ESTILO EQUIPO*/
+#equipo {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 15rem;
+}
+.miembrosequipo {
+    display: flex;
+    justify-content: space-around;
+}
+.miembro {
+    text-align: center;
+}
+.miembro img {
+    border-radius: 50%;
+    max-width: 150px;
+}
 
+
+/*ESTILO CONTACTO*/
+#contacto {
+    background-color: #b08e6b;
+    margin: 0 auto;
+    padding: 70px;
+}
 -formgroup {
     margin-bottom: 20px;
 }
-
 label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #ff6b6b;
+    color: #f5e1ce;
 }
-
 input, textarea {
     width: 100px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 button {
-    background-color: #ff007f;
+    background-color: #f5e1ce;
     color: #fff;
     padding: 10 pc 20px;
     border: none;
@@ -121,9 +130,8 @@ button {
 button:hover {
     background-color: #ff6b6b;
 }
-
 .buttonestetico {
-    background-color: #ff007f;
+    background-color: #b08e6b;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -132,34 +140,16 @@ button:hover {
     font-weight: bold;
     transition: background-color 0.3s;
 }
-
 -buttonestetico:hover {
     background-color: #ff6b6b;
 }
 
 
-/*ESTILOS PARA EL EQUIPO*/
-
-.miembrosequipo {
-    display: flex;
-    justify-content: space-around;
-}
-
-.miembro {
+/*ESTILO PIE DE PÁGINA*/
+#pie {
+    background-color: #ffffff;
+    color: #ffffff;
     text-align: center;
-}
-
-.miembro img {
-    border-radius: 50%;
-    max-width: 150px;
-}
-
-
-/*ESTILOS PARA EL PIE DE PÁGINA*/
-
-footer {
-    background-color: #f9d9d9;
-    color: #ff6b6b;
-    text-align: center;
-    padding: 1rem 0;
+    margin: 0 auto;
+    padding: 10px 0;
 }
