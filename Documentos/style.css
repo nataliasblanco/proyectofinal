@@ -94,9 +94,8 @@ main {
 /*ESTILO SERVICIOS*/
 #servicios {
     background-color: #b08e6b;
-    margin: 0 auto;
+    margin: 0;
     padding: 9rem;
-    margin: auto;
     background-position: center center;
 }
 .servicioss {
