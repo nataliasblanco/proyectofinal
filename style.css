@@ -157,7 +157,7 @@ main {
 
 /*ESTILO CONTACTO*/
 #contacto {
-    background-image: url(/Imagenes/columnasmuseo5.png);
+    background-image: url(columnasmuseo5.png);
     background-repeat: no-repeat;
     opacity: 70%;
     margin: 0 auto;
